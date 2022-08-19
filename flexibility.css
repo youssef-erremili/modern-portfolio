@@ -1,0 +1,120 @@
+@media screen and (max-width: 1140px) {
+    .main .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main .container .left{
+        padding: unset;
+        margin: 10rem 0 2rem 0;
+    }
+    .main .container .left .hire a{
+        display: block;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .main .container .left .social .line{
+        display: none;
+    }
+    .main .container .left .social ul li a img{
+        width: 24px;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .main .container .left .social ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .main .container .left .social{
+        margin: 8px 0;        
+    }
+}
+@media screen and (max-width: 1070px) {
+    .main .mid-section-1 .flex{
+        width: 90% !important;
+    }
+    .mid-section-2 .service .box{
+        width: 28%;
+    }
+    .mid-section-3 .blog .child-blog{
+        width: 29%;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .head header .nav nav ul li a{
+        font-size: 16px;
+        padding: 10px 17px;
+    }
+    .mid-section-2 .service .box,
+    .mid-section-3 .blog .child-blog{
+        width: 40%;
+        margin: 2.5rem 0;
+    }
+} 
+@media screen and (max-width: 925px) {
+    .main .mid-section-1 .flex .about{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 5rem 0;
+    }
+    .mid-section-1 .flex .about .abt-ad img{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .mid-section-1 .flex .about .art-ad .social ul{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .main .mid-section-1 .flex .about p{
+        text-align: center;
+        width: 100%;
+    }
+    .mid-section-1 .flex .about .art-ad{
+        min-width: 80%;
+    }
+    .mid-section-1 .flex .about .abt-ad{
+        min-width: 65%;
+    }
+    .contact-section .contact-form{
+        width: 70%;
+    }
+}   
+@media screen and (max-width: 840px) {
+    .main .container .left{
+        width: 80%;
+    }
+    .main .container .right img{
+        width: 420px;
+    }
+    #wave img{
+        width: 380px;
+    }
+}    
+@media screen and (max-width: 799px) {
+    .head header .nav nav ul{
+        display: none;
+    }
+}    
+@media screen and (max-width: 777px) {
+    .mid-section-3 .blog,
+    .mid-section-2 .service{
+        flex-direction: column;
+    }
+    .mid-section-2 .service .box,
+    .mid-section-3 .blog .child-blog{
+        min-width: 90%;
+    }
+    .footer{
+        padding-bottom: 7rem;
+    }
+}    
+@media screen and (max-width: 600px){
+    .contact-section .contact-form{
+        width: 90%;
+    }
+    .footer h2 span{
+        display: block;
+        margin: 10px 0;
+    }
+}
